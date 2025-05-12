@@ -1,0 +1,28 @@
+body {
+	font-family: Montserrat (semi bold);
+	background-color: #e61d3f;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 2px;
+}
+
+#page {
+	background-color: #ffffff;
+}
+
+#navigation {
+	text-align: center;
+	padding-top: 15px;
+	padding-right: 10px;
+}
+#maincontent {
+	overflow: hidden;
+	padding: 15px;
+}
+h2{
+	color: #003300;
+}
+h3{
+	color: #1a1a1a;
+}
