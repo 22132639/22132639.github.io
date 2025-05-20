@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Homepage- Celtec Games</title>
+<link href="VFstyles.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+<!-- The page div will handle the backgroud colour of the main content, this will be connsistent across all pages -->
+<div id="page">
+<img src="images/banner2.png" alr"banner2">
+
+<!-- The navigation div will contain the website navigation bar,this will be consistent across pages -->
+<div id="navigation">
+
+<a href="index.htm">Homepage</a> -
+<a href="blog.htm">Blog</a> -
+<a href="about_us.htm">About us</a> -
+<a href="products.htm">Products</a> -
+<a href="contact.htm">Contact Celtec</a> -
+
+<!-- This closes the 'navigation' div tag -->
+</div>
+
+<!-- The maincontent div will contain the content for each page, this content will change across pages -->
+<div id="maincontent">
+
+<script>
+var Digital=new Date()
+var hours=Digital.getHours()
+if (hours>=0&&hours<=12)
+document.write('<b>Good Morning, welcome to our website.</b>')
+else if (hours>12&&hours<=17)
+document.write('<b>Good Afternoon, welcome to our website.</b>')
+else document.write('<b>Good Evening, welcome to our website.</b>')
+</script>
+
+<h1>Celtec Games</h1>
+<img src="images/logo.png" alr"logo" width="350" height="350" align="right">
+
+<p>In this website you will learn more about who Celtec Games are what we do within the gaming community.</p> 
+<p>We have very talented individuals within our company that are extremely dedicated to the gaming community and creating the best possible games for that community.</p>
+<p>Please use the following links to explore the website</p> 
+ 
+
+
+
+<p>Website produced by: Bogomila Stoycheva</p>
+ 
+<!-- This closes the 'maincontent' div tag -->
+</div>
+
+<!-- This closes the 'page' div tag -->
+</div>
+
+</body>
+
+</html>
